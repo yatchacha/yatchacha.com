@@ -27,8 +27,8 @@ const Home = () => {
   });
 
   function loadMbti(isInit = false, twInfo = true) {
-    const base_url = (twInfo) ? "https://api.yatchacha.com.com/mbti/user?allow_tw_info=true"
-     : "https://api.yatchacha.com.com/mbti/user";
+    const base_url = (twInfo) ? "https://api.yatchacha.com/mbti/user?allow_tw_info=true"
+     : "https://api.yatchacha.com/mbti/user";
     
     axios
       .get(base_url)

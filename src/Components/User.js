@@ -8,7 +8,7 @@ import ReactTooltip from 'react-tooltip';
 const User = ({match}) => {
   const param = match.params;
   const userId = param.name;
-  const url = "https://api.yatchacha.com.com/mbti/user?allow_tw_info=true&tw_id=" + userId;
+  const url = "https://api.yatchacha.com/mbti/user?allow_tw_info=true&tw_id=" + userId;
   const [isUserSet, setUserSet] = useState(0);
   const [user, setUser] = useState({});
   const [sameMbti, setSameMbti] = useState({});
@@ -55,7 +55,7 @@ const User = ({match}) => {
       })
       .then(() => {
         // Same MBTI
-        const sameUrl = "https://api.yatchacha.com.com/mbti/user?allow_tw_info=true&mbti=" + userMbti;
+        const sameUrl = "https://api.yatchacha.com/mbti/user?allow_tw_info=true&mbti=" + userMbti;
         axios
           .get(sameUrl)
           .then((Response)=>{
