@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ac453ab.chunk.css",
-    "main.js": "/static/js/main.55e8f72f.chunk.js",
-    "main.js.map": "/static/js/main.55e8f72f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.dd018b20.js",
-    "runtime-main.js.map": "/static/js/runtime-main.dd018b20.js.map",
-    "static/css/2.ca24057b.chunk.css": "/static/css/2.ca24057b.chunk.css",
-    "static/js/2.ecc78210.chunk.js": "/static/js/2.ecc78210.chunk.js",
-    "static/js/2.ecc78210.chunk.js.map": "/static/js/2.ecc78210.chunk.js.map",
-    "static/js/3.678aa0e2.chunk.js": "/static/js/3.678aa0e2.chunk.js",
-    "static/js/3.678aa0e2.chunk.js.map": "/static/js/3.678aa0e2.chunk.js.map",
+    "main.css": "/static/css/main.16ecf937.chunk.css",
+    "main.js": "/static/js/main.935e6663.chunk.js",
+    "main.js.map": "/static/js/main.935e6663.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b2892a5c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b2892a5c.js.map",
+    "static/css/2.6f59ce15.chunk.css": "/static/css/2.6f59ce15.chunk.css",
+    "static/js/2.f5e1542d.chunk.js": "/static/js/2.f5e1542d.chunk.js",
+    "static/js/2.f5e1542d.chunk.js.map": "/static/js/2.f5e1542d.chunk.js.map",
+    "static/js/3.89943a21.chunk.js": "/static/js/3.89943a21.chunk.js",
+    "static/js/3.89943a21.chunk.js.map": "/static/js/3.89943a21.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.ca24057b.chunk.css.map": "/static/css/2.ca24057b.chunk.css.map",
-    "static/css/main.7ac453ab.chunk.css.map": "/static/css/main.7ac453ab.chunk.css.map",
-    "static/js/2.ecc78210.chunk.js.LICENSE.txt": "/static/js/2.ecc78210.chunk.js.LICENSE.txt",
+    "static/css/2.6f59ce15.chunk.css.map": "/static/css/2.6f59ce15.chunk.css.map",
+    "static/css/main.16ecf937.chunk.css.map": "/static/css/main.16ecf937.chunk.css.map",
+    "static/js/2.f5e1542d.chunk.js.LICENSE.txt": "/static/js/2.f5e1542d.chunk.js.LICENSE.txt",
     "static/media/busy.svg": "/static/media/busy.c4668539.svg",
     "static/media/default.svg": "/static/media/default.1f281972.svg",
     "static/media/disconnected.svg": "/static/media/disconnected.9c7ea75e.svg",
@@ -24,10 +24,10 @@
     "static/media/spin.svg": "/static/media/spin.a71ffb17.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd018b20.js",
-    "static/css/2.ca24057b.chunk.css",
-    "static/js/2.ecc78210.chunk.js",
-    "static/css/main.7ac453ab.chunk.css",
-    "static/js/main.55e8f72f.chunk.js"
+    "static/js/runtime-main.b2892a5c.js",
+    "static/css/2.6f59ce15.chunk.css",
+    "static/js/2.f5e1542d.chunk.js",
+    "static/css/main.16ecf937.chunk.css",
+    "static/js/main.935e6663.chunk.js"
   ]
 }
