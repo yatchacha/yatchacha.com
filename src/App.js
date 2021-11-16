@@ -15,12 +15,12 @@ import "./Style/Global.css"
 
 function App() {
   // 모바일에서 100vh 문제 해결
-  const appHeight = () => {
-    const doc = document.documentElement
-    doc.style.setProperty('--app-height', `${window.innerHeight}px`)
-  }
-  window.addEventListener('resize', appHeight)
-  appHeight()
+  let vh = 0;
+
+  useEffect(() => {
+    vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }, []);
 
   const [title, setTitle] = useState('달차네 마을');
   const [viewBefore, setViewBefore] = useState(null);
