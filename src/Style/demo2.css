@@ -16,7 +16,7 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  padding-top: 2px;
+  /* padding-top: 2px; */
 }
 
 .bottom {

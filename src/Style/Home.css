@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
-:root {
-    --vh: 100%;
- }
- 
- html,
- body {
-     height: 100vh;
-     height: var(--vh);
- }
-
 /* Dark Mode */
 .darkmode--activated #main {
     color: white !important;
@@ -57,6 +47,10 @@
 .adm-index-bar-sidebar-item-active {
     border-radius: 0% !important;
     width: 34px !important;
+}
+.adm-index-bar-sidebar-item {
+    width: 34px !important;
+    margin-right: -3px;
 }
 .adm-index-bar-anchor-title {
     z-index: 1 !important;

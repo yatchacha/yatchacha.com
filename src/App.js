@@ -11,6 +11,7 @@ import Bottom from './Components/Template/Bottom';
 import Main from './Pages/Main';
 import CalendarPage from './Pages/CalendarPage';
 import { Empty } from 'antd-mobile'
+import "./Style/Global.css"
 
 function App() {
   // 모바일에서 100vh 문제 해결
