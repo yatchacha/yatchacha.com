@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
+:root {
+    --vh: 100%;
+ }
+ 
+ html,
+ body {
+     height: 100vh;
+     height: var(--vh);
+ }
+
 /* Dark Mode */
 .darkmode--activated #main {
     color: white !important;
@@ -40,6 +50,20 @@
 }
 .headerTitleBtn {
   margin-left: 5px; font-size: 14px; color: lightgrey;
+}
+.adm-tab-bar-item {
+    background-color: white !important;
+}
+.adm-index-bar-sidebar-item-active {
+    border-radius: 0% !important;
+    width: 34px !important;
+}
+.adm-index-bar-anchor-title {
+    z-index: 1 !important;
+}
+.mbtiFloating {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-weight: 500;
 }
 
 

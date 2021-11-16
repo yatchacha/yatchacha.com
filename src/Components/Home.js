@@ -6,6 +6,10 @@ import MbtiUser from './MbtiUser.js';
 import axios from 'axios';
 import ReactTooltip from 'react-tooltip';
 import '../Style/Home.css';
+import { FloatingPanel, List, IndexBar } from 'antd-mobile'
+import { Avatar, Image } from 'antd';
+import {Link} from 'react-router-dom';
+import MbtiFloating from './MbtiFloating';
 
 const Home = () => {
 
@@ -17,6 +21,10 @@ const Home = () => {
     [ 'ESTP', 'ESFP', 'ENFP', 'ENTP' ],
     [ 'ESTJ', 'ESFJ', 'ENFJ', 'ENTJ' ]
   ];
+
+  const anchors = [100, window.innerHeight * 0.4, window.innerHeight * 0.8]
+  // const anchors = [100, 50, 400]
+  
 
   useEffect(() => {
     loadMbti(true);
@@ -70,6 +78,7 @@ const Home = () => {
       </div>
       <ReactTooltip id="tooltipComp" globalEventOff={isMobile ? 'click' : undefined} />
       <TemplateFooter />
+      <MbtiFloating />
     </div>
   );
 }

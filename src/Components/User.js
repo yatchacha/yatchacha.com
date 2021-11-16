@@ -4,6 +4,8 @@ import axios from 'axios';
 import MbtiUser from './MbtiUser';
 import moment from 'moment';
 import ReactTooltip from 'react-tooltip';
+import { Spin } from 'antd';
+import MbtiFloating from './MbtiFloating';
 
 const User = ({match}) => {
   const param = match.params;
@@ -80,7 +82,9 @@ const User = ({match}) => {
     );
   } else if (isUserSet === 0) {
     return (
-      <p className="jua">로딩 중...</p>
+      <div style={{display: 'flex', alignItems: 'center'}}>
+        <Spin size="large" />
+      </div>
     );
   } else {
     return (
@@ -123,6 +127,7 @@ const User = ({match}) => {
           </div>
           <ReactTooltip id="tooltipComp" globalEventOff={isMobile ? 'click' : undefined} />
         </div>
+        <MbtiFloating />
       </>
     );
   }
